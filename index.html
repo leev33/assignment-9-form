@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Bootstrap</title>
+
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+
+<div class="container">
+  <div class="row">
+    <h1>Mick Jagger Quiz</h1>
+      <p>This quiz is about the musician, Mick Jagger. It will include questions about his life and career. In his lifetime he has been a singer, songwriter and actor. The information for this quiz was found from his Wikipedia page, which can be found <a href="https://en.wikipedia.org/wiki/Mick_Jagger" target="_blank">here</a>.</p>
+
+<form>
+  <div class="form-group">
+    <label for="inputYear">What year was Mick Jagger born?</label>
+    <input type="text" name="birthyear" id="inputYear" class="form-control"
+      placeholder="Birth Year">
+  </div>
+
+  <div class="form-group">
+    <label for="inputBand">What band was he the lead singer for?</label>
+    <input type="text" name="bandname" id="inputBand" class="form-control"
+      placeholder="Band Name">
+  </div>
+
+  <div class="form-group">
+    <label for="inputLyrics">Write lyrics to your favorite Mick Jagger song</label>
+    <textarea name="lyrics" id="inputLyrics" class="form-control"></textarea>
+  </div>
+
+<p>What is Mick Jagger's middle name?</p>
+  <div class="form-group">
+    <label>
+      <input type="radio" name="options" id="middle1" value="middle1">
+        Mathew
+    </label>
+  </div>
+
+
+  <div class="form-group">
+    <label>
+      <input type="radio" name="options" id="middle2" value="middle2">
+        Jacob
+    </label>
+  </div>
+
+  <div class="form-group">
+    <label>
+      <input type="radio" name="options" id="middle3" value="middle3">
+        Philip
+    </label>
+  </div>
+
+  <div class="form-group">
+    <label>
+      <input type="radio" name="options" id="middle4" value="middle4">
+        Patrick
+    </label>
+  </div>
+
+<p>What are some of his kids names?</p>
+  <div class="form-group">
+    <label>
+      <input type="checkbox" name="content" id="kid1" value="kid1">
+      Jade
+    </label>
+  </div>
+
+  <div class="form-group">
+    <label>
+      <input type="checkbox" name="content" id="kid2" value="kid2">
+      Elizabeth
+    </label>
+  </div>
+
+  <div class="form-group">
+    <label>
+      <input type="checkbox" name="content" id="kid3" value="kid3">
+      Georgia
+    </label>
+  </div>
+
+  <div class="form-group">
+    <label>
+      <input type="checkbox" name="content" id="kid4" value="kid4">
+      Bob
+    </label>
+  </div>
+
+
+<div class="form-group">
+<p>What is your favorite Rolling Stones song?</p>
+  <select name= "StonesFav" id="favsong">
+    <option value="favsong1">Gimme Shelter</option>
+    <option value="favsong2">Beast of Burden</option>
+    <option value="favsong3">Paint it Black</option>
+    <option value="favsong4">Start me Up</option>
+    <option value="favsong5">Satisfaction</option>
+    <option value="favsong6">Sympathy For The Devil</option>
+    <option value="favsong7">Brown Sugar</option>
+    <option value="favsong8">Honky Tonk Women</option>
+  </select>
+</div>
+
+
+<div class="form-group">
+  <input class="btn btn-default"
+    Type="submit" value="submit">
+
+  <input class="btn btn-default"
+      Type="reset" value="reset">
+</div>
+
+
+
+</form>
+
+</div>
+</div>
+</div>
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
