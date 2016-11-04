@@ -16,7 +16,7 @@
     <h1>Mick Jagger Quiz</h1>
       <p>This quiz is about the musician, Mick Jagger. It will include questions about his life and career. In his lifetime he has been a singer, songwriter and actor. The information for this quiz was found from his Wikipedia page, which can be found <a href="https://en.wikipedia.org/wiki/Mick_Jagger" target="_blank">here</a>.</p>
 
-<form>
+<form id="myForm" action="" method="post">
   <div class="form-group">
     <label for="inputYear">What year was Mick Jagger born?</label>
     <input type="text" name="birthyear" id="inputYear" class="form-control"
@@ -121,6 +121,8 @@
 
 </form>
 
+<div id="showAnswers" class="alert alert-success" role="alert"></div>
+
 </div>
 </div>
 </div>
@@ -128,5 +130,6 @@
 
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/form_processor.js"></script>
 </body>
 </html>
